@@ -17,5 +17,5 @@ def accuracy(y_true, y_pred):
 
 if __name__ == "__main__":
     y_pred = [1,2,3,4,5,6]
-    y_true = [1,3,3,5,6,6]
+    y_true = [1,3,3,5,6,7]
     print(accuracy(y_true, y_pred))
